@@ -23,15 +23,19 @@ h2 {
 }
 
 p {
-  text-align: center;	
+  text-align: left;
+  animation: fadeIn 2s;
 }
 
 ul {
   text-align: center;
   animation: fadeIn 2s;
 }
+
 a {
   color: black;
+}
+li a{
+	color: black;
   font-size: 20px;
-  
 }
