@@ -1,0 +1,33 @@
+body {
+	background-attachment: fixed;
+	height: 200px;
+	background-color: red; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to top, rgb(255, 0, 0), rgb(90, 62, 214));
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+h2 {
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+ul {
+  text-align: center;
+  animation: fadeIn 2s;
+}
+a {
+  color: black;
+  font-size: 20px;
+  
+}
